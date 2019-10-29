@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    
+    <% include partials/head.ejs %>
+    
+    <body>
+        
+        <header>
+            <h1><a href="/" class = link><%=virusName%></a></h1>
+        </header>
+        
+        <% include partials/nav.ejs %>
+        
+        <br /><br />
+        
+        <main>
+            <div id = "fakerPage">
+                <figure id = "fakerRansom">
+                    <img src='<%=randImage%>' alt = "fakerRansom">
+                </figure>
+                <div>
+                    <p><em><%=virusName%></em> <%=randText%></p>
+                    
+                    <%=randText%>
+                    <p><i><u>Estimated Cost: $<%=randNum%> billion</u></i></p>
+                    <p><a href='<%=randUrl%>' class = link>CLICK HERE FOR MORE INFO</a></p>
+                </div>
+            </div>
+        </main>
+        
+        <hr class = "dotted">
+        
+    </body>
+
+</html>

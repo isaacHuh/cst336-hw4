@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <% include partials/head.ejs %>
+    
+    <body>
+        
+        <header>
+            <h1><a href="/" class = link> Infamous Computer Viruses </a></h1>
+        </header>
+        
+        <% include partials/nav.ejs %>
+    
+        <p id = "generalInfo">Computer viruses are capable of causing a tremendous amount of damage. Viruses come in all different shapes and sizes, 
+            ranging from trolls to ransomware. Here are a few of the many infamous viruses within the last few years.</p>
+            
+        <hr class = "dotted">    
+        <main>
+            
+            <div id = "computerViruses">
+                <div>
+                    <figure class = "virus">
+                        <a href="/iloveyou"><img src="img/iloveyou.jpg" alt = "iLoveYou"></a>
+                    </figure>
+                    
+                    <div>
+                        <h2>ILOVEYOU</h2>
+                    </div>
+                </div>
+                <hr class = "dashed">
+                <div>
+                    <figure class = "virus">
+                        <a href="/wannacry"><img src="img/wannacry.png" alt = "wannaCry"></a>
+                    </figure>
+                    
+                    <div>
+                        <h2>WannaCry</h2>
+                    </div>
+                </div>
+                <hr class = "dashed">
+                <div>
+                    <figure class = "virus">
+                        <a href="/sasser"><img src="img/sasser.png" alt = "sasser"></a>
+                    </figure>
+                    
+                    <div>
+                        <h2>Sasser</h2>
+                    </div>
+                </div>
+            </div>
+            <hr class = "dotted">
+            <hr class = "dashed">
+            
+        </main>
+
+        
+    </body>
+
+</html>
