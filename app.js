@@ -10,7 +10,7 @@ console.log(faker.image.avatar());
 
 //routes
 app.get("/", function(req,res){
-   res.render("index.ejs"); 
+   res.render("index.html"); 
 });
 
 app.get("/iloveyou", function(req,res){
